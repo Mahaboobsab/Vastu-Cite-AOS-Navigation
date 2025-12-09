@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <!-- Background color during splash -->
+      //  <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Icon/logo shown in the center -->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/vastuappicon</item>-->
+
+        <!-- Theme applied after splash is dismissed -->
+        <item name="postSplashScreenTheme">@style/Theme.VastuCite</item>
+    </style>
+    <style name="Theme.VastuCite" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
+
